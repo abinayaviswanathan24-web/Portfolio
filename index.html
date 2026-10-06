@@ -3,14 +3,13 @@
 
 <head>
 
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Abinaya | Portfolio</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
@@ -18,16 +17,15 @@
 
 <body>
 
-
     <!-- ================= HEADER ================= -->
 
     <header>
 
         <nav>
 
-            <h2 class="logo">
-                Abinaya Viswanathan
-            </h2>
+            <a href="#home" class="logo">
+                Abinaya <span>Viswanathan</span>
+            </a>
 
             <ul>
 
@@ -62,12 +60,16 @@
     </header>
 
 
-
     <!-- ================= HOME ================= -->
 
     <section id="home" class="home">
 
         <div class="home-content">
+
+            <div class="hello-tag">
+                <span></span>
+                Available for opportunities
+            </div>
 
             <h1>
                 Hi, I'm <span>Abinaya</span>
@@ -78,25 +80,128 @@
             </h2>
 
             <p>
-                A passionate Java Full Stack Developer with skills in
-                Java, Spring Boot, MySQL, HTML, CSS, JavaScript and React.
+                I build clean, responsive and user-friendly web applications
+                using Java, Spring Boot, MySQL and modern frontend technologies.
             </p>
-
 
             <div class="home-buttons">
 
-                <!-- Contact Button -->
-                <a href="#contact" class="btn">
-                    Contact
+                <a href="#contact" class="primary-btn">
+
+                    Contact Me
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
 
-                <!-- Download CV -->
-                <a href="abi backend resume (2).docx" download class="cv-btn">
+                <a href="abi backend resume (2).docx"
+                   download
+                   class="secondary-btn">
 
                     Download CV
 
+                    <i class="fa-solid fa-download"></i>
+
                 </a>
+
+            </div>
+
+
+            <!-- HOME TECHNOLOGIES -->
+
+            <div class="home-tech">
+
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>MySQL</span>
+                <span>React</span>
+                <span>HTML</span>
+                <span>CSS</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= FLOATING TECHNOLOGY CARDS ================= -->
+
+        <div class="home-decoration">
+
+            <!-- Java -->
+
+            <div class="floating-card card-java">
+
+                <i class="fa-brands fa-java"></i>
+
+                <span>
+                    Java
+                </span>
+
+            </div>
+
+
+            <!-- Spring Boot -->
+
+            <div class="floating-card card-spring">
+
+                <i class="fa-solid fa-leaf"></i>
+
+                <span>
+                    Spring Boot
+                </span>
+
+            </div>
+
+
+            <!-- MySQL -->
+
+            <div class="floating-card card-mysql">
+
+                <i class="fa-solid fa-database"></i>
+
+                <span>
+                    MySQL
+                </span>
+
+            </div>
+
+
+            <!-- React -->
+
+            <div class="floating-card card-react">
+
+                <i class="fa-brands fa-react"></i>
+
+                <span>
+                    React
+                </span>
+
+            </div>
+
+
+            <!-- HTML -->
+
+            <div class="floating-card card-html">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <span>
+                    HTML
+                </span>
+
+            </div>
+
+
+            <!-- CSS -->
+
+            <div class="floating-card card-css">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <span>
+                    CSS
+                </span>
 
             </div>
 
@@ -105,27 +210,54 @@
     </section>
 
 
-
     <!-- ================= ABOUT ================= -->
 
     <section id="about">
 
-        <h2 class="section-title">
-            About Me
-        </h2>
+        <div class="section-heading">
+
+            <span></span>
+
+            <h2>
+                About Me
+            </h2>
+
+        </div>
 
 
         <div class="about-content">
+
+            <div class="about-intro">
+
+                <h3>
+
+                    Building ideas into
+
+                    <span>
+                        working applications.
+                    </span>
+
+                </h3>
+
+            </div>
+
 
             <div class="about-text">
 
                 <p>
                     I am a passionate Java Full Stack Developer with a
                     strong interest in developing responsive and
-                    user-friendly web applications. I have knowledge of
-                    Core Java, JDBC, MySQL, HTML, CSS, JavaScript, React,
-                    and Spring Boot. I enjoy learning new technologies
-                    and applying my skills to build practical applications.
+                    user-friendly web applications.
+                </p>
+
+                <p>
+                    I have knowledge of Core Java, JDBC, MySQL, HTML, CSS,
+                    JavaScript, React, and Spring Boot. I enjoy learning
+                    new technologies and applying my skills to build
+                    practical applications.
+                </p>
+
+                <p>
                     I am looking for an opportunity to start my career as
                     a Java Full Stack Developer and grow my technical skills
                     while contributing to a professional organization.
@@ -138,59 +270,119 @@
     </section>
 
 
-
     <!-- ================= SKILLS ================= -->
 
     <section id="skills">
 
-        <h2 class="section-title">
-            My Skills
-        </h2>
+        <div class="section-heading">
+
+            <span></span>
+
+            <h2>
+                My Skills
+            </h2>
+
+        </div>
+
+
+        <p class="section-subtitle">
+            Technologies I use to build web applications.
+        </p>
 
 
         <div class="skills-container">
 
 
+            <!-- JAVA -->
+
             <div class="skill">
+
+                <div class="skill-icon java-icon">
+
+                    <i class="fa-brands fa-java"></i>
+
+                </div>
 
                 <h3>
                     Java
                 </h3>
 
                 <p>
-                    Core Java, OOP, Collections
+                    Core Java, OOP & Collections
                 </p>
+
+                <div class="skill-line">
+
+                    <span style="width: 85%;"></span>
+
+                </div>
 
             </div>
 
 
+            <!-- SPRING BOOT -->
+
             <div class="skill">
+
+                <div class="skill-icon">
+
+                    <i class="fa-solid fa-leaf"></i>
+
+                </div>
 
                 <h3>
                     Spring Boot
                 </h3>
 
                 <p>
-                    REST API and CRUD Operations
+                    REST API & CRUD Operations
                 </p>
+
+                <div class="skill-line">
+
+                    <span style="width: 80%;"></span>
+
+                </div>
 
             </div>
 
 
+            <!-- MYSQL -->
+
             <div class="skill">
+
+                <div class="skill-icon">
+
+                    <i class="fa-solid fa-database"></i>
+
+                </div>
 
                 <h3>
                     MySQL
                 </h3>
 
                 <p>
-                    Database and SQL Queries
+                    Database & SQL Queries
                 </p>
+
+                <div class="skill-line">
+
+                    <span style="width: 82%;"></span>
+
+                </div>
 
             </div>
 
 
+            <!-- HTML CSS -->
+
             <div class="skill">
+
+                <div class="skill-icon">
+
+                    <i class="fa-brands fa-html5"></i>
+
+                </div>
 
                 <h3>
                     HTML & CSS
@@ -200,31 +392,65 @@
                     Frontend Web Development
                 </p>
 
+                <div class="skill-line">
+
+                    <span style="width: 88%;"></span>
+
+                </div>
+
             </div>
 
 
+            <!-- JAVASCRIPT -->
+
             <div class="skill">
+
+                <div class="skill-icon">
+
+                    <i class="fa-brands fa-js"></i>
+
+                </div>
 
                 <h3>
                     JavaScript
                 </h3>
 
                 <p>
-                    Basic JavaScript and DOM
+                    JavaScript & DOM Basics
                 </p>
+
+                <div class="skill-line">
+
+                    <span style="width: 75%;"></span>
+
+                </div>
 
             </div>
 
 
+            <!-- REACT -->
+
             <div class="skill">
+
+                <div class="skill-icon">
+
+                    <i class="fa-brands fa-react"></i>
+
+                </div>
 
                 <h3>
                     React
                 </h3>
 
                 <p>
-                    Components and React Basics
+                    Components & React Basics
                 </p>
+
+                <div class="skill-line">
+
+                    <span style="width: 72%;"></span>
+
+                </div>
 
             </div>
 
@@ -233,173 +459,399 @@
     </section>
 
 
+   
+           <!-- ================= PROJECTS ================= -->
 
-    <!-- ================= PROJECTS ================= -->
+<section id="projects">
 
-    <section id="projects">
+    <div class="section-heading">
 
-        <h2 class="section-title">
+        <span></span>
+
+        <h2>
             My Projects
         </h2>
 
+    </div>
 
-        <div class="projects-container">
-
-
-            <div class="project">
-
-                <h3>
-                    Authentication Management System
-                </h3>
-
-                <p>
-                    A user authentication system developed using
-                    Java, Spring Boot, MySQL and JWT.
-                    Includes registration, login, password hashing
-                    and authentication features.
-                </p>
-
-            </div>
-
-
-
-            <div class="project">
-
-                <h3>
-                    E-commerce Store Management
-                </h3>
-
-                <p>
-                    A Java-based application designed to manage
-                    products and customer orders with database
-                    integration using MySQL.
-                </p>
-
-            </div>
-
-
-
-            <div class="project">
-
-    <h3>
-        Personal Portfolio Website
-    </h3>
-
-    <p>
-        A responsive personal portfolio website
-        developed using HTML and CSS to showcase
-        my skills, projects, education and contact details.
+    <p class="section-subtitle">
+        Some of the applications I have worked on.
     </p>
 
-    <a href="https://abinayaviswanathan24-web.github.io/Portfolio/"
-       target="_blank"
-       class="project-btn">
-        View Project
-    </a>
+    <div class="projects-container">
 
-</div>
+
+        <!-- PROJECT 01 -->
+
+        <div class="project">
+
+            <div class="project-number">
+                01
+            </div>
+
+            <div class="project-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <h3>
+                Authentication Management System
+            </h3>
+
+            <p>
+                A user authentication system developed using
+                Java, Spring Boot, MySQL and JWT. Includes
+                registration, login, password hashing and
+                authentication features.
+            </p>
+
+            <div class="project-tags">
+
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>JWT</span>
+                <span>MySQL</span>
+
+            </div>
+
+            <a href="https://github.com/abinayaviswanathan24-web/Authmanagement1"
+               target="_blank"
+               class="project-btn">
+
+                View GitHub
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
 
         </div>
 
-    </section>
+
+        <!-- PROJECT 02 -->
+
+        <div class="project featured-project">
+
+            <div class="project-number">
+                02
+            </div>
+
+            <div class="project-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+            <h3>
+                E-commerce Store Management
+            </h3>
+
+            <p>
+                A Java-based application designed to manage
+                products and customer orders with database
+                integration using MySQL.
+            </p>
+
+            <div class="project-tags">
+
+                <span>Java</span>
+                <span>JDBC</span>
+                <span>MySQL</span>
+
+            </div>
+
+            <a href="https://github.com/abinayaviswanathan24-web/EcommerceStoreManagement"
+               target="_blank"
+               class="project-btn">
+
+                View GitHub
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+        </div>
 
 
+        <!-- PROJECT 03 -->
 
+        <div class="project">
+
+            <div class="project-number">
+                03
+            </div>
+
+            <div class="project-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+
+            <h3>
+                Personal Portfolio Website
+            </h3>
+
+            <p>
+                A responsive personal portfolio website developed
+                using HTML and CSS to showcase my skills, projects,
+                education and contact details.
+            </p>
+
+            <div class="project-tags">
+
+                <span>HTML</span>
+                <span>CSS</span>
+
+            </div>
+
+            <a href="https://github.com/abinayaviswanathan24-web/Portfolio"
+               target="_blank"
+               class="project-btn">
+
+                View GitHub
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+            <a href="https://abinayaviswanathan24-web.github.io/Portfolio/"
+               target="_blank"
+               class="project-btn">
+
+                View Live Project
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 04 -->
+
+        <div class="project featured-project">
+
+            <div class="project-number">
+                04
+            </div>
+
+            <div class="project-icon">
+                <i class="fa-solid fa-seedling"></i>
+            </div>
+
+            <h3>
+                GreenNest – Plant E-commerce
+            </h3>
+
+            <p>
+                A full-stack plant e-commerce website developed using
+                React, Spring Boot, REST API and PostgreSQL. The application
+                allows users to browse plant products, view product details,
+                manage a shopping cart and explore plant categories.
+            </p>
+
+            <div class="project-tags">
+
+                <span>React</span>
+                <span>Spring Boot</span>
+                <span>REST API</span>
+                <span>PostgreSQL</span>
+
+            </div>
+
+            <a href="https://github.com/abinayaviswanathan24-web/GreenNest"
+               target="_blank"
+               class="project-btn">
+
+                View GitHub
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+            <a href="https://abinayaviswanathan24-web.github.io/GreenNest/"
+               target="_blank"
+               class="project-btn">
+
+                View Live Project
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
     <!-- ================= EDUCATION ================= -->
 
     <section id="education">
 
-        <h2 class="section-title">
-            Education
-        </h2>
+        <div class="section-heading">
 
+            <span></span>
 
-        <div class="education-box">
-
-            <h3>
-                Bachelor of Engineering
-            </h3>
-
-            <h4>
-                Electronics and Communication Engineering
-            </h4>
-
-            <h4>
-                University College of Engineering 
-            </h4>
-
-            <p>
-                Ramanathapuram, Tamil Nadu
-            </p>
-
-            <h5>
-                CGPA: 7.9/10
-            </h5>
+            <h2>
+                Education
+            </h2>
 
         </div>
 
 
-        <div class="education-box">
-
-            <h3>
-                HSC
-            </h3>
-
-            <h4>
-                Creative Matriculation Higher Secondary School
-            </h4>
-
-            <p>
-                Ramanathapuram, Tamil Nadu
-            </p>
-
-            <p>
-                percentage:72%
-            </p>
-
-        </div>
+        <div class="education-container">
 
 
-        <div class="education-box">
+            <!-- BE -->
 
-            <h3>
-                SSLC
-            </h3>
+            <div class="education-card">
 
-            <h4>
-                Creative Matriculation Higher Secondary School
-            </h4>
+                <div class="education-year">
+                    BE
+                </div>
 
-            <p>
-                Ramanathapuram, Tamil Nadu
-            </p>
 
-            <p>
-                percentage:92%
-            </p>
+                <div class="education-content">
+
+                    <span class="education-label">
+                        Bachelor's Degree
+                    </span>
+
+
+                    <h3>
+                        Bachelor of Engineering
+                    </h3>
+
+
+                    <h4>
+                        Electronics and Communication Engineering
+                    </h4>
+
+
+                    <p>
+                        University College of Engineering
+                    </p>
+
+
+                    <small>
+                        Ramanathapuram, Tamil Nadu
+                    </small>
+
+
+                    <strong>
+                        CGPA: 7.9 / 10
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- HSC -->
+
+            <div class="education-card">
+
+                <div class="education-year">
+                    HSC
+                </div>
+
+
+                <div class="education-content">
+
+                    <span class="education-label">
+                        Higher Secondary
+                    </span>
+
+
+                    <h3>
+                        HSC
+                    </h3>
+
+
+                    <h4>
+                        Creative Matriculation Higher Secondary School
+                    </h4>
+
+
+                    <p>
+                        Ramanathapuram, Tamil Nadu
+                    </p>
+
+
+                    <strong>
+                        Percentage: 72%
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- SSLC -->
+
+            <div class="education-card">
+
+                <div class="education-year">
+                    SSLC
+                </div>
+
+
+                <div class="education-content">
+
+                    <span class="education-label">
+                        Secondary School
+                    </span>
+
+
+                    <h3>
+                        SSLC
+                    </h3>
+
+
+                    <h4>
+                        Creative Matriculation Higher Secondary School
+                    </h4>
+
+
+                    <p>
+                        Ramanathapuram, Tamil Nadu
+                    </p>
+
+
+                    <strong>
+                        Percentage: 92%
+                    </strong>
+
+                </div>
+
+            </div>
 
         </div>
 
     </section>
-
 
 
     <!-- ================= CONTACT ================= -->
 
     <section id="contact">
 
-        <h2 class="section-title">
-            Contact
-        </h2>
+        <div class="section-heading">
+
+            <span></span>
+
+            <h2>
+                Let's Connect
+            </h2>
+
+        </div>
+
+
+        <p class="contact-intro">
+            Interested in working together? Feel free to reach out.
+        </p>
 
 
         <div class="contact-box">
 
-
             <div class="social-icons">
 
 
-                <!-- LinkedIn -->
+                <!-- LINKEDIN -->
 
                 <a href="https://www.linkedin.com/in/abinaya-viswanathan-756b8a37b"
                    target="_blank"
@@ -414,10 +866,9 @@
                 </a>
 
 
+                <!-- GITHUB -->
 
-                <!-- GitHub -->
-
-                <a href="https://github.com/abinayaviswanathan24-web"
+                <a href="https://github.com/abinayaviswanathan24"
                    target="_blank"
                    class="social-icon">
 
@@ -430,8 +881,7 @@
                 </a>
 
 
-
-                <!-- Gmail -->
+                <!-- GMAIL -->
 
                 <a href="mailto:abinayaviswanathan24@gmail.com"
                    class="social-icon">
@@ -445,8 +895,7 @@
                 </a>
 
 
-
-                <!-- Phone -->
+                <!-- PHONE -->
 
                 <a href="tel:+918344861253"
                    class="social-icon">
@@ -459,7 +908,6 @@
 
                 </a>
 
-
             </div>
 
         </div>
@@ -467,14 +915,40 @@
     </section>
 
 
-
     <!-- ================= FOOTER ================= -->
 
     <footer>
 
-        <p>
-            © 2026 Abinaya. All Rights Reserved.
-        </p>
+        <div class="footer-content">
+
+            <div class="footer-line"></div>
+
+
+            <h2>
+                Thanks for Visiting!
+            </h2>
+
+
+            <div class="footer-line"></div>
+
+
+            <p class="footer-message">
+                Thank you for visiting my portfolio.
+            </p>
+
+
+            
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Abinaya | All Rights Reserved.
+            </p>
+
+        </div>
 
     </footer>
 
